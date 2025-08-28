@@ -1,0 +1,57 @@
+.colored-toast.swal2-icon-success {
+    filter: drop-shadow(0 0 4px rgba(58, 166, 160, 0.6)) drop-shadow(0 0 8px rgba(58, 166, 160, 0.4)) drop-shadow(0 0 12px rgba(58, 166, 160, 0.3));
+    background: linear-gradient(135deg, #7bed9f, #2ed573);
+    border: 1px solid rgba(147, 245, 235, 0.3);
+}
+
+.colored-toast.swal2-icon-error {
+    filter: drop-shadow(0 0 4px rgba(124, 13, 13, 0.6)) drop-shadow(0 0 8px rgba(124, 13, 13, 0.4)) drop-shadow(0 0 12px rgba(124, 13, 13, 0.3));
+    background: linear-gradient(135deg, #5c0a0a, #7c0d0d);
+    border: 1px solid rgba(255, 100, 100, 0.3);
+}
+
+.colored-toast.swal2-icon-warning {
+    filter: drop-shadow(0 0 4px rgba(165, 167, 46, 0.6)) drop-shadow(0 0 8px rgba(165, 167, 46, 0.4)) drop-shadow(0 0 12px rgba(165, 167, 46, 0.3));
+    background: linear-gradient(135deg, #8a8c25, #a5a72e);
+    border: 1px solid rgba(245, 247, 134, 0.3);
+}
+
+.colored-toast.swal2-icon-info {
+    filter: drop-shadow(0 0 4px rgba(17, 102, 136, 0.6)) drop-shadow(0 0 8px rgba(17, 102, 136, 0.4)) drop-shadow(0 0 12px rgba(17, 102, 136, 0.3));
+    background: linear-gradient(135deg, #0d506b, #116688);
+    border: 1px solid rgba(100, 200, 255, 0.3);
+}
+
+.colored-toast.swal2-icon-question {
+    filter: drop-shadow(0 0 4px rgba(58, 166, 160, 0.4)) drop-shadow(0 0 8px rgba(58, 166, 160, 0.3)) drop-shadow(0 0 12px rgba(58, 166, 160, 0.2));
+    background: linear-gradient(135deg, #1e4a5c, #2a6b7a);
+    border: 1px solid rgba(147, 245, 235, 0.3);
+}
+
+.colored-toast .swal2-title {
+    color: white;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.colored-toast .swal2-close {
+    color: white;
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+    transition: all 0.2s ease;
+}
+
+.colored-toast .swal2-close:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.colored-toast .swal2-html-container {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    font-size: 0.95em;
+}
+
+.colored-toast:hover {
+    filter: brightness(1.05) drop-shadow(0 0 6px rgba(0, 0, 0, 0.4)) drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}

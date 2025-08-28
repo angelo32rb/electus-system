@@ -1,0 +1,16 @@
+.electusCard {
+    background: rgba(147, 245, 235, 0.03);
+
+    color: #e0f0f4;
+    transition: all 0.3s ease-in-out;
+}
+
+.electusCard::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}

@@ -1,0 +1,58 @@
+[theme="dark-aqua"] {
+  --bg-theme: #0b1a24;
+  --border-shadow: #3aa6a0;
+  --hover: #3aa6a091;
+}
+
+[theme="galaxy"] {
+  --bg-theme: #0f0c24;
+  --border-shadow: #6a5acd;
+  --hover: #6a5acd91;
+}
+
+[theme="nebula"] {
+  --bg-theme: #160c28;
+  --border-shadow: #7b2cbf;
+  --hover: #7b2cbf91;
+}
+
+[theme="cyberpunk"] {
+  --bg-theme: #1a0c2e;
+  --border-shadow: #ff2a6d;
+  --hover: #ff2a6d91;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(94, 94, 94, 0.5) transparent;
+  background-color: var(--bg-theme);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(94, 94, 94, 0.5);
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+
+.dropdown-menu {
+  pointer-events: auto !important;
+}
+
+.card-hover:hover {
+  background-color: rgba(33, 33, 33, 0.415);
+  transition: .2s ease;
+}
+
+.table>thead {
+  background-color: transparent !important;
+}

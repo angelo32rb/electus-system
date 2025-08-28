@@ -1,0 +1,95 @@
+/* Menu */
+
+.electusNavBar {
+    background: rgba(22, 22, 22, 0.58);
+
+    color: #e0f0f4;
+    transition: all 0.3s ease-in-out;
+}
+
+.electusBrand {
+    animation: spin 4s linear infinite;
+}
+
+.electusNavLink {
+    color: rgb(226, 224, 224);
+    text-shadow: 0 0 20px #a5a72e;
+}
+
+.electusNavLink:hover {
+    font-weight: bold;
+    text-shadow: 0 0 20px #7c0d0d;
+    color: rgb(226, 224, 224);
+}
+
+.electusNavLink:focus {
+    font-weight: bold;
+    text-shadow: 0 0 20px #7c0d0d;
+    color: rgb(226, 224, 224);
+}
+
+.electusDropDownMenu {
+    background-color: rgba(22, 22, 22);
+}
+
+
+.electusDropDownMenu>li {
+    color: #e0f0f4;
+}
+
+.electusDropDownMenu>li>a:hover {
+    background-color: rgba(61, 61, 62, 0.3);
+}
+
+/* Sidebar */
+.electusSidebarActive {
+    background-color: var(--hover);
+    box-shadow: 0 0 10px var(--border-shadow);
+}
+
+.electusSidebarItem:hover {
+    background-color: var(--hover);
+    box-shadow: 0 0 10px var(--border-shadow);
+}
+
+.electusSidebarDropdown {
+    background-color: rgba(22, 22, 22, 0.2);
+}
+
+.electusSidebarMobile {
+    background-color: var(--bg-theme) !important;
+}
+
+/* ThemeEditor */
+
+.colorDot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.colorDot.darkAqua {
+    background-color: #3aa6a0;
+}
+
+.colorDot.galaxy {
+    background-color: #6a5acd;
+}
+
+.colorDot.nebula {
+    background-color: #7b2cbf;
+}
+
+.colorDot.cyberpunk {
+    background-color: #1a0c2e;
+}
+
+/* Animations */
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

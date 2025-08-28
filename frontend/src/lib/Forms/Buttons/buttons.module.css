@@ -1,0 +1,171 @@
+.btnDefault {
+    border: .13rem solid var(--border-shadow);
+    background: rgba(22, 22, 22, 0.3);
+    font-weight: bold;
+
+    box-shadow: 0 0 12px var(--border-shadow);
+    text-shadow: 0 0 5px var(--border-shadow);
+}
+
+.btnDefault:hover {
+    background-color: var(--hover);
+    border-color: var(--border-shadow);
+    box-shadow: 0 0 12px var(--border-shadow);
+
+    transition: background-color .3s ease;
+}
+
+.btnDefault:active {
+    background-color: var(--border-shadow);
+    border-color: var(--border-shadow);
+    box-shadow: 0 0 12px var(--border-shadow);
+}
+
+.btnFilledDefault {
+    background: var(--border-shadow);
+    font-weight: bold;
+
+    box-shadow: 0 0 12px var(--border-shadow);
+    text-shadow: 0 0 5px var(--border-shadow);
+}
+
+.btnFilledDefault:hover {
+    background-color: var(--hover);
+    box-shadow: 0 0 12px var(--border-shadow);
+
+    transition: background-color .3s ease;
+}
+
+.btnFilledDefault:active {
+    background-color: var(--border-shadow);
+    box-shadow: 0 0 12px var(--border-shadow);
+}
+
+.btnInfo {
+    border: .13rem solid #116688;
+    background: rgba(22, 22, 22, 0.3);
+    font-weight: bold;
+
+    box-shadow: 0 0 12px #116688;
+    text-shadow: 0 0 5px #116688;
+}
+
+.btnInfo:hover {
+    border-color: #116688;
+    background-color: #116688;
+    box-shadow: 0 0 12px #116688;
+
+    transition: background-color .3s ease;
+}
+
+.btnInfo:active {
+    border-color: #116688;
+    background-color: #116688;
+    box-shadow: 0 0 12px #116688;
+}
+
+.btnFilledInfo {
+    background-color: #116688;
+    font-weight: bold;
+
+    box-shadow: 0 0 12px #116688;
+    text-shadow: 0 0 5px #116688;
+}
+
+.btnFilledInfo:hover {
+    background: #11668891;
+    box-shadow: 0 0 12px #116688;
+
+    transition: background-color .3s ease;
+}
+
+.btnFilledInfo:active {
+    background-color: #116688;
+    box-shadow: 0 0 12px #116688;
+}
+
+.btnWarning {
+    border: .13rem solid #a5a72e;
+    background: rgba(22, 22, 22, 0.3);
+    font-weight: bold;
+
+    box-shadow: 0 0 12px #a5a72e;
+    text-shadow: 0 0 5px #a5a72e;
+}
+
+.btnWarning:hover {
+    border-color: #a5a72e;
+    background-color: #a5a72e;
+    box-shadow: 0 0 12px #a5a72e;
+
+    transition: background-color .3s ease;
+}
+
+.btnWarning:active {
+    border-color: #a5a72e;
+    background-color: #a5a72e;
+    box-shadow: 0 0 12px #a5a72e;
+}
+
+.btnFilledWarning {
+    background-color: #a5a72e;
+    font-weight: bold;
+
+    box-shadow: 0 0 12px #a5a72e;
+    text-shadow: 0 0 5px #a5a72e;
+}
+
+.btnFilledWarning:hover {
+    background: #a5a72e91;
+    box-shadow: 0 0 12px #a5a72e;
+
+    transition: background-color .3s ease;
+}
+
+.btnFilledWarning:active {
+    background: #a5a72e91;
+    box-shadow: 0 0 12px #a5a72e;
+}
+
+.btnDanger {
+    border: .13rem solid #7c0d0d;
+    background: rgba(22, 22, 22, 0.3);
+    font-weight: bold;
+
+    box-shadow: 0 0 12px #7c0d0d;
+    text-shadow: 0 0 5px #7c0d0d;
+}
+
+.btnDanger:hover {
+    border-color: #7c0d0d;
+    background-color: #7c0d0d;
+    box-shadow: 0 0 12px #7c0d0d;
+
+    transition: background-color .3s ease;
+}
+
+.btnDanger:active {
+    border-color: #7c0d0d;
+    background-color: #7c0d0d;
+    box-shadow: 0 0 12px #7c0d0d;
+}
+
+.btnFilledDanger {
+    background: #7c0d0d;
+    font-weight: bold;
+
+    box-shadow: 0 0 12px #7c0d0d;
+    text-shadow: 0 0 5px #7c0d0d;
+}
+
+.btnFilledDanger:hover {
+    background: #7c0d0d91;
+    box-shadow: 0 0 12px #7c0d0d;
+
+    transition: background-color .3s ease;
+}
+
+.btnFilledDanger:active {
+    background: #7c0d0d91;
+    box-shadow: 0 0 12px #7c0d0d;
+}

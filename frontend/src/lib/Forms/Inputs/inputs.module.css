@@ -1,0 +1,44 @@
+.electusInput {
+    color: #fffffff3;
+    background: rgba(22, 22, 22, 0.3);
+    border: 1px solid var(--border-shadow);
+    border-radius: 8px;
+}
+
+.electusInput:focus {
+    box-shadow: 0 0 0 0.2rem var(--border-shadow);
+    border-color: var(--border-shadow);
+    background: rgba(22, 22, 22, 0.5);
+}
+
+.electusInput::placeholder {
+    color: #ffffff79;
+}
+
+.electusTextArea {
+    box-shadow: 0 0 0 0.2rem var(--border-shadow);
+    border-color: var(--border-shadow);
+    background: rgba(22, 22, 22, 0.5);
+}
+
+.electusTextArea:focus {
+    color: #fffffff3;
+    box-shadow: 0 0 0 0.2rem var(--border-shadow);
+    border-color: var(--border-shadow);
+    background: rgba(22, 22, 22, 0.5);
+}
+
+.electusTextArea::placeholder {
+    color: #ffffff79;
+}
+
+.electusIcons {
+    filter: drop-shadow(0 0 3px var(--border-shadow));
+}
+
+.electusIcons:hover {
+    color: var(--border-shadow);
+    font-size: 1.1em;
+    transition: color .3s ease;
+    cursor: pointer;
+}

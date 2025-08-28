@@ -1,0 +1,4 @@
+2025-08-21 19:00:41 [ERROR]: Error while trying to decrypt: 
+TypeError: Cannot read properties of undefined (reading 'ciphertext')
+2025-08-21 19:01:00 [ERROR]: Error while trying to decrypt: 
+TypeError: Cannot read properties of undefined (reading 'ciphertext')
