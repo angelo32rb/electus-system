@@ -182,9 +182,6 @@ electus-system/
 │   │   ├── Router/                  # Routing configuration
 │   │   └── Services/                # API communication
 │   └── public/                      # Static assets
-│
-└── db_bck/                          # Database backup
-    └── electusdb backup.sql         # Schema and initial data
 ```
 
 ## 🚦 Getting Started
@@ -203,13 +200,8 @@ electus-system/
    cd electus-system
    ```
 
-2. **Database Setup**
-   ```bash
-   # Import the database schema
-   mysql -u root -p < db_bck/electusdb\ backup.sql
-   ```
 
-3. **Backend Configuration**
+2. **Backend Configuration**
    ```bash
    cd backend
    cp .env.example .env
@@ -235,20 +227,20 @@ electus-system/
    EMAIL_PASS=your_app_password
    ```
 
-4. **Install backend dependencies**
+3. **Install backend dependencies**
    ```bash
    npm install
    npm start
    ```
 
-5. **Frontend Setup**
+4. **Frontend Setup**
    ```bash
    cd ../frontend
    npm install
    npm run dev
    ```
 
-6. **Access the application**
+5. **Access the application**
    - **Frontend Dashboard**: `http://localhost:5173`
    - **Backend API**: `http://localhost:3000`
    - **API Documentation**: `http://localhost:3000/api/v1`
